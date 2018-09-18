@@ -21,3 +21,5 @@ items = get_google_new_results( 'apple', 50 )
 # items is a list where each element is a tuple (title, link,)
 for title,link in items:
     print title, ' ', link
+
+    
