@@ -17,7 +17,7 @@ def get_google_new_results( term, count ):
     return results
 
 
-items = get_google_new_results( 'apple', 2 )
+items = get_google_new_results( 'centraal bureau voor de statistiek', 2 )
 # items is a list where each element is a tuple (title, link,)
 for title,link in items:
     print title, ' ', link
